@@ -1,4 +1,4 @@
-# Crypto Wallet-Seed-Checker
+# Crypto Wallet Seed Checker
 
 **Crypto Wallet Seed Checker** is a high-performance tool designed to generate and analyze BIP-39 mnemonic phrases, automatically derive wallet addresses, and check for any existing balances across multiple blockchain networks.
 
@@ -73,10 +73,10 @@ The following options can be used to customize how **Seed Phrase Checker** opera
 
 | Option         | Description                                            |
 |----------------|--------------------------------------------------------|
-| `--network`    | Target blockchain to check. Supported values include `bitcoin`, `ethereum`, `bsc`, etc. |
-| `--threads`    | Number of threads to use for generation and checking. Increasing the number of threads can speed up the process, but requires more CPU resources. |
-| `--phrases`    | Number of seed phrases to generate and check. This parameter allows you to specify how many phrases you want the program to process. |
-| `--log`        | Enable or disable logging of results. When enabled, results will be saved to `results/hits.txt`. The log can later be exported to CSV or JSON formats. |
+| `network`    | Target blockchain to check. Supported values include `bitcoin`, `ethereum`, `bsc`, etc. |
+| `threads`    | Number of threads to use for generation and checking. Increasing the number of threads can speed up the process, but requires more CPU resources. |
+| `phrases`    | Number of seed phrases to generate and check. This parameter allows you to specify how many phrases you want the program to process. |
+| `log`        | Enable or disable logging of results. When enabled, results will be saved to `results/hits.txt`. The log can later be exported to CSV or JSON formats. |
 
 ---
 
